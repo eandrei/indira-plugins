@@ -38,7 +38,19 @@ indira-plugins/
 
 Plugin-ul se actualizează automat la fiecare `git push`.
 
-> **Notă:** Repo-ul e privat. Trebuie acces la `eandrei/indira-plugins` pe GitHub. Pentru auto-update în background, setează `GITHUB_TOKEN` în shell config.
+> **Notă:** Repo-ul e privat. Trebuie acces la `eandrei/indira-plugins` pe GitHub.
+
+### Activare auto-update (obligatoriu)
+
+Plugin-ul se actualizează automat în background, dar are nevoie de un token GitHub. Fără el, update-urile automate nu funcționează.
+
+1. Cere un **GitHub Personal Access Token** de la admin (sau creează-ți unul la https://github.com/settings/tokens?type=beta cu acces read la `eandrei/indira-plugins`)
+2. Deschide **Terminal** (pe Mac: Cmd+Space → scrie "Terminal" → Enter)
+3. Copiază și lipește comanda asta (înlocuiește `TOKEN_AICI` cu token-ul tău):
+   ```
+   echo 'export GITHUB_TOKEN=TOKEN_AICI' >> ~/.zprofile
+   ```
+4. Închide și redeschide Terminal-ul (sau Claude Code / Cowork)
 
 ### Ca Upload Manual
 
