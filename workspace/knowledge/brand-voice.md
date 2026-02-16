@@ -10,6 +10,12 @@ Indira este un brand românesc de bijuterii demi-fine, specializat în piese uni
 **Platformă:** Shopify
 **Monedă:** RON (Lei românești)
 **Piață principală:** România
+**Firmă:** Indira Art Distribution S.R.L., CUI RO 36408630
+**Contact:** support@indira.ro / 0726 963 030
+**Program suport:** Luni–Vineri, 09:00–16:00
+**Adresă:** Intrarea Moneasa 1, et. 1, 010633 București, Sector 1
+**Showroom:** Același sediu (doar cu programare, plată doar card)
+**Autorizație ANPC:** Nr. 9756 (operațiuni metale și pietre prețioase)
 
 ## Tonul Comunicării
 

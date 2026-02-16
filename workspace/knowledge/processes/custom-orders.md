@@ -1,23 +1,17 @@
-# Comenzi Personalizate
+# Precomenzi Indira
 
-<!-- TODO: completați cu procesul de comenzi personalizate Indira -->
+## Important
 
-## Ce Personalizări Oferim?
+- Indira **NU face produse personalizate**
+- Există doar serviciu de **precomenzi** pentru produse existente care nu sunt în stoc
 
-- Gravare / gravură: [Da/Nu — detalii]
-- Mărime personalizată: [Da/Nu]
-- Combinații de pietre la cerere: [Da/Nu]
-- [Alte personalizări]
+## Condiții Precomandă
 
-## Proces
+- **Livrare:** 45–60 de zile
+- **Plată:** 50% avans la plasarea comenzii, restul la livrare
+- Produsul trebuie să existe deja în catalogul Indira
 
-1. Clienta descrie ce dorește
-2. [Verificăm dacă este posibil]
-3. [Oferim preț și termen de execuție]
-4. [Plata — integral sau avans?]
-5. [Execuție — termen]
-6. [Livrare]
+## Contact
 
-## Politica de Retur pentru Comenzi Personalizate
-
-- [Se pot returna? În ce condiții?]
+- Email: support@indira.ro
+- Telefon: 0726 963 030

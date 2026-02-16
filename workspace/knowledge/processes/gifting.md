@@ -1,25 +1,27 @@
 # Cadouri și Ambalare
 
-<!-- TODO: completați cu opțiunile de gifting Indira -->
+## Ambalare Standard
 
-## Ambalare Cadou
+- Fiecare bijuterie vine în **cutie de depozitare Indira** + cutie de livrare
+- Ambalajul standard este elegant și potrivit pentru cadouri
 
-- **Ambalaj standard:** [descriere — cutie, punguță?]
-- **Ambalaj cadou premium:** [disponibil? preț?]
-- **Kit Ambalaj:** disponibil pe site, 85 RON
+## Bijuterie Primită Cadou — Schimb
+
+- Dacă clienta nu dorește să păstreze bijuteria primită cadou:
+  - Se poate **înlocui cu alt produs de valoare similară**
+  - Produsul returnat trebuie însoțit de **certificat de garanție**
+  - Termen: **30 zile** de la data achiziției
 
 ## Mesaj Cadou
 
-- [Se poate adăuga un mesaj personalizat?]
-- [Unde se specifică — în notele comenzii?]
+- Se poate specifica în **notele comenzii** la finalizare
 
-## Gift Card / Voucher Cadou
+## Livrare Cadou (direct la destinatar)
 
-- [Disponibil? Unde se cumpără?]
-- [Valori disponibile]
-- [Perioadă de valabilitate]
+- Se poate introduce **adresa destinatarului** ca adresă de livrare
+- Factura se trimite pe emailul din comandă (nu în pachet)
 
-## Livrare Cadou
+## Gift Card / Voucher
 
-- [Se poate livra direct la destinatar?]
-- [Se include factura în pachet? Poate fi exclusă?]
+- Disponibil pe site
+- **Nu se restituie** contravaloarea financiară a unui gift card/voucher achiziționat
