@@ -1,6 +1,6 @@
 {
   "name": "indira-customer-care",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Customer care agent for indira.ro — draft responses, triage tickets, escalate issues, research questions, and continuously improve the knowledge base for a Romanian Shopify jewelry store.",
   "author": {
     "name": "Indira"
