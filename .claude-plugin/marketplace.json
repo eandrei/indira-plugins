@@ -1,0 +1,16 @@
+{
+  "name": "indira-plugins",
+  "owner": {
+    "name": "Indira"
+  },
+  "metadata": {
+    "description": "Claude Cowork plugins for indira.ro customer care"
+  },
+  "plugins": [
+    {
+      "name": "indira-customer-care",
+      "source": "./indira-customer-care",
+      "description": "Customer care agent for indira.ro — draft responses, triage tickets, escalate issues, research questions, and continuously improve the knowledge base for a Romanian Shopify jewelry store."
+    }
+  ]
+}
