@@ -2,27 +2,42 @@
 
 Agent de customer care pentru [indira.ro](https://www.indira.ro) — răspunde la mesaje, triază tickete, cercetează și își îmbunătățește singur baza de cunoștințe.
 
-## Instalare (3 pași, ~5 min)
+## Instalare (~5 min)
 
-### Pas 1 — Descarcă repo-ul
+### Pas 1 — Instalează Git (o singură dată)
 
-Deschide **Terminal** (Cmd+Space → scrie "Terminal" → Enter):
+Deschide **Terminal** (Cmd+Space → scrie "Terminal" → Enter) și rulează:
+
+```
+git --version
+```
+
+Dacă apare o versiune (ex: `git version 2.x.x`), treci la pasul 2.
+
+Dacă nu, macOS te va întreba dacă vrei să instalezi developer tools. Apasă **Install** și așteaptă (~2 min).
+
+### Pas 2 — Descarcă repo-ul
+
+În același Terminal, copiază și lipește:
 
 ```
 cd ~/Documents
 git clone https://github.com/eandrei/indira-plugins.git
 ```
 
-### Pas 2 — Adaugă plugin-ul în Cowork
+### Pas 3 — Adaugă plugin-ul în Cowork
 
-1. **Plugins** → **Add marketplace from GitHub**
-2. Introdu: `eandrei/indira-plugins`
-3. Click **Sync** → instalează **indira-customer-care**
+1. Deschide **Claude Cowork**
+2. **Plugins** → **Add marketplace from GitHub**
+3. Introdu: `eandrei/indira-plugins`
+4. Click **Sync**
+5. Instalează **indira-customer-care**
 
-### Pas 3 — Conectează workspace-ul
+### Pas 4 — Conectează workspace-ul
 
-1. **Work in a folder** → navighează la `Documents/indira-plugins/workspace`
-2. Selectează directorul `workspace`
+1. În Cowork, click **Work in a folder**
+2. Navighează la **Documents** → **indira-plugins** → **workspace**
+3. Selectează directorul `workspace`
 
 Gata. Agentul are acum acces la cunoștințe, și plugin-ul se actualizează automat.
 
