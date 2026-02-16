@@ -1,74 +1,74 @@
 # Indira Plugins
 
-Claude Cowork plugin marketplace for [indira.ro](https://www.indira.ro).
+Agent de customer care pentru [indira.ro](https://www.indira.ro) — răspunde la mesaje, triază tickete, cercetează și își îmbunătățește singur baza de cunoștințe.
 
-## Plugins
+## Instalare (3 pași, ~5 min)
 
-| Plugin | Descriere |
-|--------|-----------|
-| [indira-customer-care](./indira-customer-care/) | Customer care agent — draft responses, triage tickets, escalate, research, and improve the knowledge base |
+### Pas 1 — Descarcă repo-ul
 
-## Structură
+Deschide **Terminal** (Cmd+Space → scrie "Terminal" → Enter):
+
+```
+cd ~/Documents
+git clone https://github.com/eandrei/indira-plugins.git
+```
+
+### Pas 2 — Adaugă plugin-ul în Cowork
+
+1. **Plugins** → **Add marketplace from GitHub**
+2. Introdu: `eandrei/indira-plugins`
+3. Click **Sync** → instalează **indira-customer-care**
+
+### Pas 3 — Conectează workspace-ul
+
+1. **Work in a folder** → navighează la `Documents/indira-plugins/workspace`
+2. Selectează directorul `workspace`
+
+Gata. Agentul are acum acces la cunoștințe, și plugin-ul se actualizează automat.
+
+---
+
+## Comenzi disponibile
+
+| Comandă | Ce face |
+|---------|---------|
+| `/draft-response` | Scrie un răspuns profesional pentru un mesaj de la client |
+| `/triage` | Categorizează și prioritizează un ticket |
+| `/research` | Cercetare multi-sursă pe o întrebare |
+| `/escalate` | Creează un brief de escalare structurat |
+| `/kb-article` | Creează sau actualizează un articol în baza de cunoștințe |
+| `/agent-improve` | Îmbunătățește baza de cunoștințe pe baza feedback-ului |
+
+---
+
+## Cum se actualizează
+
+Sunt **3 tipuri** de actualizări, fiecare cu un mecanism diferit:
+
+| Ce se schimbă | Cum se actualizează | Când e disponibil |
+|---------------|--------------------|--------------------|
+| **Knowledge base** (politici, produse, procese) | Editezi fișierele din `workspace/knowledge/` | Instant |
+| **Commands & Skills** (logica agentului) | `git commit && git push` | Automat, la push |
+| **Self-improvement** (agentul se corectează singur) | `/agent-improve` → confirmă → `git push` | Instant local, permanent la push |
+
+---
+
+## Structura repo-ului
 
 ```
 indira-plugins/
 ├── workspace/                ← Cowork "Work in a folder" pointează aici
 │   ├── knowledge/            ← baza de cunoștințe (brand, produse, politici, procese)
-│   ├── drafts/               ← draft-uri de răspunsuri în lucru
-│   ├── tickets/              ← note și context per ticket
-│   └── research/             ← cercetări și investigații
+│   ├── drafts/               ← draft-uri în lucru
+│   ├── tickets/              ← note per ticket
+│   └── research/             ← cercetări
 ├── indira-customer-care/     ← plugin source (instalat separat în Cowork)
 │   ├── commands/
 │   ├── skills/
 │   └── .claude-plugin/
-├── docs/
-└── README.md
+└── docs/
 ```
 
-## Setup
-
-### Ca Marketplace (recomandat — auto-update)
-
-1. În Claude Code / Cowork, rulează:
-   ```
-   /plugin marketplace add eandrei/indira-plugins
-   /plugin install indira-customer-care@indira-plugins
-   ```
-2. **Work in a folder** → selectează directorul `workspace/`
-
-Plugin-ul se actualizează automat la fiecare `git push`.
-
-> **Notă:** Repo-ul e privat. Trebuie acces la `eandrei/indira-plugins` pe GitHub.
-
-### Activare auto-update (obligatoriu)
-
-Plugin-ul se actualizează automat în background, dar are nevoie de un token GitHub. Fără el, update-urile automate nu funcționează.
-
-1. Cere un **GitHub Personal Access Token** de la admin (sau creează-ți unul la https://github.com/settings/tokens?type=beta cu acces read la `eandrei/indira-plugins`)
-2. Deschide **Terminal** (pe Mac: Cmd+Space → scrie "Terminal" → Enter)
-3. Copiază și lipește comanda asta (înlocuiește `TOKEN_AICI` cu token-ul tău):
-   ```
-   echo 'export GITHUB_TOKEN=TOKEN_AICI' >> ~/.zprofile
-   ```
-4. Închide și redeschide Terminal-ul (sau Claude Code / Cowork)
-
-### Ca Upload Manual
-
-1. Rulează: `cd indira-customer-care && zip -r ../indira-customer-care.plugin . -x "*.DS_Store"`
-2. În Cowork, **Plugins** → **Upload plugin** → selectează `.plugin`
-3. **Work in a folder** → selectează directorul `workspace/`
-4. Necesită re-upload la fiecare modificare de commands/skills
-
-## Workflow de Actualizare
-
-### Knowledge base (instant)
-Editezi fișierele din `workspace/knowledge/` → disponibil imediat (via "Work in a folder")
-
-### Commands & Skills (via git push)
-Editezi commands/skills → `git commit && git push` → Cowork detectează update-ul automat
-
-### Self-improvement loop
-1. `/draft-response` → răspuns greșit
-2. `/agent-improve` → propune modificare knowledge
-3. Confirmă → salvat local (instant)
-4. `git push` → disponibil permanent
+**Separare clară:**
+- `workspace/` = ce folosește agentul la runtime (cunoștințe + fișiere de lucru)
+- `indira-customer-care/` = codul plugin-ului (comenzi + skills)
