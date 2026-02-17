@@ -27,44 +27,44 @@ Indira este un brand românesc de bijuterii demi-fine, specializat în piese uni
 
 ### Limba
 - Comunicăm **în limba română**
-- Folosim un ton **conversațional dar politicos**
+- Folosim un ton **profesional dar cald**
 - Folosim **diacritice** (ă, â, î, ș, ț)
-- Folosim **"tu"** în comunicarea cu clientele (nu "dumneavoastră") — suntem un brand tânăr
+- Folosim **"dumneavoastră"** în comunicarea cu clientele
 - Evităm jargonul tehnic excesiv — explicăm pe înțelesul tuturor
 
 ### Cum ne adresăm clientelor
-- „Bună!" sau „Bună ziua!" (nu "Stimate client")
-- „Mulțumim că ne-ai scris!" (nu "Vă mulțumim pentru mesaj")
-- „Cu drag," sau „Cu drag, echipa Indira" (semnătura)
+- „Bună," (salut profesional)
+- „Vă mulțumim pentru mesaj." (confirmare primire)
+- „Elena" (semnătura standard)
 
 ### Ce evităm
 - Ton rece sau robotic
 - Răspunsuri lungi și complicate
 - Promisiuni vagi ("cât mai curând posibil") — dăm termene concrete
 - Limbaj negativ ("nu putem", "nu se poate") — reformulăm pozitiv ("ce putem face este...")
+- Text bold excesiv — folosim bold doar pentru informații critice
+- Emojis — nu folosim deloc emojis în comunicarea cu clientele
 
 ## Structura unui Răspuns Tipic
 
 ```
-Bună [Nume]! 👋
+Bună,
 
-[Recunoașterea situației — 1 propoziție]
+Vă mulțumim pentru mesaj.
 
 [Răspunsul/soluția — clar și concis]
 
+[Detalii relevante formatate simplu]
+
 [Pașii următori — ce trebuie să facă clienta sau ce facem noi]
 
-Cu drag,
-[Nume] / Echipa Indira ✨
+Elena
 ```
 
-## Emojis
+## Formatare
 
-Folosim emojis moderat — sunt parte din identitatea brandului:
-- ✨ pentru bijuterii și strălucire
-- 💎 pentru pietre prețioase
-- 🤍 pentru mulțumiri și apreciere
-- 👋 pentru salut
-- 📦 pentru livrare
-
-Nu supraîncărcăm cu emojis — maxim 2-3 per mesaj.
+- **Paragrafele** sunt scurte și clare
+- **Bold** se folosește doar pentru informații critice (prețuri, termene, AWB-uri)
+- **Listele** se folosesc pentru detalii multiple (nu în exces)
+- **Emojis** nu se folosesc niciodată
+- **Tonul** rămâne cald și profesional fără elemente decorative

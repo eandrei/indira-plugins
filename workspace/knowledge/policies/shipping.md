@@ -4,7 +4,7 @@
 
 - **Curier:** Fan Courier
 - **Cost:** Gratuit pentru comenzi peste **200 RON**. Sub 200 RON → **15 RON**
-- **Timp livrare:** București 24-48h, provincie max 72h de la confirmare
+- **Timp livrare:** 24-48h (atât în București cât și în provincie)
 - **Program livrare:** Luni–Vineri, 09:00–18:00 (nu se livrează în weekend/sărbători legale)
 - **Comenzi plasate până la ora 14:00** în zile lucrătoare → expediate în aceeași zi
 - **Comenzi plasate după ora 14:00** → expediate în următoarea zi lucrătoare
