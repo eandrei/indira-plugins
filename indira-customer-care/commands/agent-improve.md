@@ -23,6 +23,10 @@ Exemple:
 
 ## Workflow
 
+### 0. Citește Convențiile
+
+Citește `CLAUDE.md` înainte de orice modificare — conține regulile de comunicare, structura fișierelor și cele 3 straturi (knowledge, skills, commands) care trebuie să rămână consistente.
+
 ### 1. Extrage Învățătura
 
 Din conversația curentă și input-ul utilizatorului, identifică:

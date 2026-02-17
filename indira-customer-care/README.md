@@ -11,15 +11,15 @@ Plugin Claude Cowork pentru echipa de customer care a [indira.ro](https://www.in
 | `/research` | Cercetare multi-sursă pe o întrebare sau un topic |
 | `/escalate` | Creează un brief de escalare structurat |
 | `/kb-article` | Creează sau actualizează un articol în baza de cunoștințe |
-| `/agent-improve` | Îmbunătățește baza de cunoștințe pe baza feedback-ului |
+| `/agent-improve` | Îmbunătățește agentul pe baza feedback-ului |
 
 ## Cum se Folosește
 
 ### Răspuns la un Ticket
 
-1. Copiază mesajul clientei din Delight Chat
+1. Copiază mesajul clientei
 2. Tastează `/draft-response` și lipește mesajul
-3. Revizuiește draft-ul și trimite-l din Delight Chat
+3. Revizuiește draft-ul și trimite-l
 
 ### Triaj Rapid
 
@@ -44,19 +44,24 @@ Plugin Claude Cowork pentru echipa de customer care a [indira.ro](https://www.in
 Dacă un răspuns e greșit sau incomplet:
 
 1. Tastează `/agent-improve` cu explicația a ce a fost greșit
-2. Claude va propune o modificare a bazei de cunoștințe
+2. Claude va propune o modificare (knowledge, skills sau commands)
 3. Confirmă modificarea
-4. Commit-ează în git: `git add . && git commit -m "knowledge: [descriere]"`
+4. Modificările se commit-esc automat via `./commit`
 
 ## Structura
 
 ```
-skills/             → Expertiza agentului (cum folosește cunoștințele)
-commands/           → Comenzi disponibile
-CONNECTORS.md       → Referințe la instrumente conectate
+indira-customer-care/          ← acest director = workspace-ul Cowork
+├── CLAUDE.md                  ← convenții agent
+├── knowledge/                 ← baza de cunoștințe (brand, produse, politici, procese)
+├── skills/                    ← instrucțiuni de comportament
+├── commands/                  ← workflow-uri disponibile
+├── drafts/                    ← draft-uri în lucru
+├── tickets/                   ← note per ticket
+├── research/                  ← cercetări salvate
+├── CONNECTORS.md              ← referințe la instrumente conectate
+└── .claude-plugin/            ← metadata plugin
 ```
-
-> **Notă:** Baza de cunoștințe (`knowledge/`) se află în `workspace/` la nivelul repo-ului. Comenzile și skill-urile referențiază `knowledge/` ca path relativ, rezolvat de Cowork din working directory.
 
 ## Skills
 
@@ -71,6 +76,5 @@ CONNECTORS.md       → Referințe la instrumente conectate
 
 ## Setup
 
-1. Instalează plugin-ul `.plugin` în Claude Desktop Cowork
-2. Selectează proiectul "Customer support"
-3. **Work in a folder** → selectează directorul `workspace/` din repo
+1. Instalează plugin-ul în Claude Cowork (via marketplace `eandrei/indira-plugins`)
+2. **Work in a folder** → selectează directorul `indira-customer-care/` din repo
