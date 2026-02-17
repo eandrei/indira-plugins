@@ -115,6 +115,7 @@ Arată CLAR ce se schimbă:
 ### 7. După Confirmare
 
 - Aplică modificarea în fișier
+- **Dacă s-a modificat un fișier din `skills/` sau `commands/`:** incrementează versiunea patch în `.claude-plugin/plugin.json` (ex: `0.2.1` → `0.2.2`)
 - Execută comanda `./commit` din directorul rădăcină al proiectului
 - Afișează un rezumat:
 
