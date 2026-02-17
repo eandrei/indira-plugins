@@ -29,12 +29,12 @@ Indira este un brand românesc de bijuterii demi-fine, specializat în piese uni
 - Comunicăm **în limba română**
 - Folosim un ton **profesional dar cald**
 - Folosim **diacritice** (ă, â, î, ș, ț)
-- Folosim **"dumneavoastră"** în comunicarea cu clientele
+- Folosim **persoana a 2-a singular** ("tu", "îți", "ai") în comunicarea cu clientele
 - Evităm jargonul tehnic excesiv — explicăm pe înțelesul tuturor
 
 ### Cum ne adresăm clientelor
-- „Bună," (salut profesional)
-- „Vă mulțumim pentru mesaj." (confirmare primire)
+- „Bună [Nume]," când avem numele (sau simplu „Bună," dacă nu)
+- „Îți mulțumim pentru mesaj!" (confirmare primire)
 - „Elena" (semnătura standard)
 
 ### Ce evităm
@@ -48,11 +48,12 @@ Indira este un brand românesc de bijuterii demi-fine, specializat în piese uni
 ## Structura unui Răspuns Tipic
 
 ```
-Bună,
+Bună [Nume],
 
-Vă mulțumim pentru mesaj.
+Îți mulțumim pentru mesaj!
 
 [Răspunsul/soluția — clar și concis]
+[Include ÎNTOTDEAUNA link-ul produsului când e relevant]
 
 [Detalii relevante formatate simplu]
 
