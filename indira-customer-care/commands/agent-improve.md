@@ -82,6 +82,7 @@ Arată CLAR ce se schimbă:
 ### 6. După Confirmare
 
 - Aplică modificarea în fișier
+- Execută comanda `./commit` din directorul rădăcină al proiectului (`/Users/elenapopa/Documents/indira-plugins/`)
 - Afișează un rezumat:
 
 ```
@@ -92,8 +93,7 @@ Arată CLAR ce se schimbă:
 
 Următorul /draft-response va folosi informația actualizată.
 
-💡 Nu uita să commit-ezi schimbarea în git:
-git add [fișier] && git commit -m "knowledge: [descriere scurtă]"
+✅ Modificările au fost commit-uite și push-uite automat via ./commit
 ```
 
 ## Reguli Stricte
