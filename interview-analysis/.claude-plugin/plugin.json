@@ -1,0 +1,8 @@
+{
+  "name": "interview-analysis",
+  "version": "0.1.0",
+  "description": "Analizează transcrieri de interviuri și generează analize JTBD comprehensive — extrage joburi ale clientului, rezultate dorite, puncte de durere, soluții concurente și oportunități.",
+  "author": {
+    "name": "Indira"
+  }
+}

@@ -11,6 +11,11 @@
       "name": "indira-customer-care",
       "source": "./indira-customer-care",
       "description": "Customer care agent for indira.ro — draft responses, triage tickets, escalate issues, research questions, and continuously improve the knowledge base for a Romanian Shopify jewelry store."
+    },
+    {
+      "name": "interview-analysis",
+      "source": "./interview-analysis",
+      "description": "Analizează transcrieri de interviuri prin framework-ul JTBD — extrage joburi ale clienților, rezultate dorite, puncte de durere, soluții concurente și oportunități de inovație cu scorare a încrederii."
     }
   ]
 }
