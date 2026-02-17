@@ -18,7 +18,7 @@ Scrie un răspuns profesional, cald și empatic în limba română pentru un cli
 Exemple:
 - `/draft-response Clienta întreabă dacă inelul cu safir e disponibil în mărimea 7`
 - `/draft-response Reclamație — bijuteria s-a înnegrit după 2 săptămâni`
-- `/draft-response Clienta vrea retur dar a trecut termenul de 14 zile`
+- `/draft-response Clienta vrea retur dar a trecut termenul de 30 zile`
 - `/draft-response Comanda #1234 nu a ajuns, clienta e frustrată`
 
 ## Workflow

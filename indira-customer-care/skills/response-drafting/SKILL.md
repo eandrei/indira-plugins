@@ -112,79 +112,81 @@ Expert at drafting professional, warm, and effective customer-facing communicati
 ### Întrebare Despre Produs
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
-Mulțumim pentru interes! [Numele produsului] este realizat din [material],
-cu [detalii pietre dacă e cazul]. [Detaliu relevant — greutate, dimensiune, finisaj].
+Îți mulțumim pentru mesaj!
+
+[Numele produsului] este realizat din [material], cu [detalii pietre dacă e cazul].
+[Detaliu relevant — greutate, dimensiune, finisaj].
 
 [Răspuns la întrebarea specifică — disponibilitate, mărime, combinații]
 
-Dacă ai nevoie de mai multe detalii, suntem aici! ✨
+Dacă ai nevoie de mai multe detalii, suntem aici.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ### Ajutor Alegere Mărime
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
-Super întrebare! Pentru a alege mărimea potrivită, poți:
+Îți mulțumim pentru mesaj!
+
+Pentru a alege mărimea potrivită, poți:
 1. Măsura diametrul interior al unui inel care ți se potrivește
 2. Înfășura o fâșie de hârtie în jurul degetului și măsura circumferința
 
-📏 Ghidul nostru complet de mărimi e aici: [link dacă e cazul]
+Ghidul nostru complet de mărimi e aici: [link]
 
-Sfat: dacă ești între două mărimi, alege-o pe cea mai mare — e mai confortabil!
+Sfat: dacă ești între două mărimi, alege-o pe cea mai mare — e mai confortabil.
 
-Cu drag,
-Echipa Indira ✨
+Elena
 ```
 
 ### Status Comandă
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
+
+Îți mulțumim pentru mesaj!
 
 Comanda ta #[număr] a fost [status — pregătită/expediată/livrată].
-
-📦 [Dacă expediată: Număr tracking: [AWB]. Poți urmări coletul aici: [link]]
+[Dacă expediată: Poți urmări coletul cu AWB-ul: **[număr]**]
 [Dacă în pregătire: Estimăm expedierea în [X] zile lucrătoare.]
 
-Dacă ai alte întrebări, nu ezita!
+Dacă ai alte întrebări, suntem aici.
 
-Cu drag,
-Echipa Indira ✨
+Elena
 ```
 
 ### Cerere Retur
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
 Îmi pare rău că [produsul] nu a fost ceea ce te așteptai.
-Vom face procesul de retur cât mai simplu!
+Vom face procesul de retur cât mai simplu.
 
 Iată pașii:
-1. [Pașii conform politicii de retur]
-2. [...]
-3. [...]
+1. Intră în Contul meu → selectează comanda → apasă butonul Returnare
+2. Alege opțiunea: schimb (aceeași bijuterie, altă mărime) sau rambursare
+3. Ambalează produsul și alege metoda: ridicare de la adresă sau retur prin Easybox
+   Nu trebuie să printezi AWB — curierul generează la ridicare.
 
-Rambursarea se va procesa în [X] zile lucrătoare de la primirea produsului.
+Primul retur per comandă e gratuit. Rambursarea se procesează în max **14 zile lucrătoare** de la primirea produsului.
 
-Suntem aici dacă ai nevoie de ajutor suplimentar! 🤍
+Dacă ai nevoie de ajutor suplimentar, suntem aici.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ### Produs Defect
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
-Îmi pare foarte rău să aud asta! Calitatea este prioritatea noastră și
+Îmi pare foarte rău să aud asta. Calitatea este prioritatea noastră și
 vrem să rezolvăm situația cât mai repede.
 
 Te rog să ne trimiți câteva fotografii cu [defectul] pentru a putea
@@ -192,16 +194,15 @@ evalua situația. Poți răspunde direct la acest mesaj cu pozele.
 
 [Dacă e clar defect: Vom [înlocui/rambursa] fără niciun cost suplimentar.]
 
-Mulțumim pentru răbdare și înțelegere! 🤍
+Îți mulțumim pentru răbdare.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ### Întârziere Livrare
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
 Îmi pare rău pentru întârzierea în livrarea comenzii tale #[număr].
 [Motivul dacă e cunoscut — ex: volum mare de comenzi, probleme curier]
@@ -209,28 +210,25 @@ Bună [Nume]! 👋
 Am verificat și coletul tău [status actual]. Estimăm livrarea
 până în [dată concretă].
 
-Voi reveni cu un update dacă apare orice schimbare. Ne cerem scuze
-pentru inconveniență!
+Revenim cu un update dacă apare orice schimbare.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ### Produs Indisponibil (Stoc Epuizat)
 
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
 Din păcate, [produsul] nu mai este disponibil momentan în mărimea [X].
 
 Ce putem face:
-- ✨ Te putem notifica imediat ce revine în stoc
-- 💎 Îți putem sugera alternative similare: [sugestii]
+- Te putem notifica imediat ce revine în stoc
+- Îți putem sugera alternative similare: [sugestii]
 
-Spune-mi ce preferi și ne ocupăm!
+Spune-mi ce preferi și ne ocupăm.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ## Quality Checks

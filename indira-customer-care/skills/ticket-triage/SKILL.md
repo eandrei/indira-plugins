@@ -22,7 +22,7 @@ Asignează fiecărui ticket o **categorie primară** și opțional o **categorie
 | **Întrebare Produs** | Material, pietre, disponibilitate, compatibilitate | din ce e făcut, piatră, disponibil, stoc, culoare, model |
 | **Mărime** | Ajutor alegere mărime, ghid mărimi | mărime, size, nu știu ce mărime, cum măsor |
 | **Plată & Facturare** | Probleme plată, cerere factură, rambursare | plată, factură, card, rambursare, bani, nu a mers plata |
-| **Personalizare** | Gravare, comenzi speciale, modificări | gravare, personalizat, scris pe el, special |
+| **Precomandă** | Precomandă produs existent, avans, termen livrare | precomandă, așteptare, 45 zile, avans, nu e în stoc dar vreau |
 | **Cadou** | Ambalaj cadou, gift card, livrare surpriză | cadou, surpriză, gift card, ambalaj, împachetare |
 | **Reclamație** | Nemulțumire generală, ANPC, experiență negativă | reclamație, nemulțumit, dezamăgit, ANPC, vreau banii |
 | **Altele** | Colaborări, parteneriate, întrebări generale | colaborare, parteneriat, influencer, presă |
@@ -112,37 +112,37 @@ Crește prioritatea automat când:
 
 ### Comandă & Livrare
 ```
-Bună [Nume]! 👋
+Bună [Nume],
+
+Îți mulțumim pentru mesaj!
 
 Am verificat comanda ta #[X] — [status actual cu detalii concrete].
 [Dacă e AWB: Poți urmări coletul cu AWB-ul: [număr]]
-[Dacă e întârziere: estimăm livrarea până [dată]]
+[Dacă e întârziere: Estimăm livrarea până în [dată concretă].]
 
-Dacă mai ai întrebări, suntem aici! ✨
+Dacă mai ai întrebări, suntem aici.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ### Produs Defect — Răspuns Inițial
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
-Îmi pare foarte rău să aud asta! Calitatea e prioritatea noastră
+Îmi pare foarte rău să aud asta. Calitatea e prioritatea noastră
 și vrem să rezolvăm cât mai repede.
 
 Te rog trimite-ne câteva fotografii cu [defectul] ca să putem
 evalua situația. Vom reveni cu o soluție în maxim [termen].
 
-Mulțumim pentru răbdare! 🤍
+Îți mulțumim pentru răbdare.
 
-Cu drag,
-Echipa Indira
+Elena
 ```
 
 ### Reclamație
 ```
-Bună [Nume]! 👋
+Bună [Nume],
 
 Îmi pare rău pentru experiența neplăcută. Înțeleg frustrarea ta
 și vreau să rezolvăm situația.
@@ -150,10 +150,9 @@ Bună [Nume]! 👋
 [Recunoaștere specifică a problemei]
 [Plan de acțiune concret cu termen]
 
-Ne cerem scuze și te asigurăm că ne ocupăm personal de asta.
+Ne ocupăm personal de asta și revenim cu un update până în [dată].
 
-Cu drag,
-[Nume agent], Echipa Indira
+Elena
 ```
 
 ## Triage Output Format

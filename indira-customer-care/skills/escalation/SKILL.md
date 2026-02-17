@@ -43,7 +43,7 @@ Expert la determinarea când și cum se escaladează problemele de suport. Struc
 
 ### Suport → Curier / Furnizor
 **De la:** Echipa suport
-**Către:** Curier (FanCourier, Sameday etc.) sau furnizor
+**Către:** Curier (Fan Courier, Sameday — România, DHL — internațional) sau furnizor
 **Când:** Colet pierdut, deteriorat în transport, întârziere nejustificată
 **Include:** AWB, detalii comandă, timeline, dovezi foto
 

@@ -2,7 +2,7 @@
 
 ## România
 
-- **Curier:** Fan Courier
+- **Curier:** Fan Courier, Sameday
 - **Cost:** Gratuit pentru comenzi peste **200 RON**. Sub 200 RON → **15 RON**
 - **Timp livrare:** 24-48h (atât în București cât și în provincie)
 - **Program livrare:** Luni–Vineri, 09:00–18:00 (nu se livrează în weekend/sărbători legale)
@@ -24,7 +24,7 @@
 ## Urmărirea Coletului
 
 - Fiecare comandă primește un **AWB** vizibil în istoricul comenzilor din contul clientei
-- Se poate verifica statusul pe site-ul Fan Courier / DHL
+- Se poate verifica statusul pe site-ul Fan Courier / Sameday / DHL
 
 ## Perioade Aglomerate (Black Friday, sărbători)
 

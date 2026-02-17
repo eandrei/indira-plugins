@@ -196,8 +196,10 @@ knowledge/
     ├── order-issues.md     → Probleme comenzi
     ├── escalation.md       → Proces escalare
     ├── complaints.md       → Gestionare reclamații
-    ├── custom-orders.md    → Comenzi personalizate
-    └── gifting.md          → Opțiuni cadou
+    ├── custom-orders.md    → Precomandă produse existente (45-60 zile, 50% avans)
+    ├── gifting.md          → Opțiuni cadou
+    ├── showroom.md         → Showroom Indira (vizite cu programare)
+    └── loyalty-program.md  → Clubul Indira (cashback, reduceri progresive)
 ```
 
 ## Using This Skill
