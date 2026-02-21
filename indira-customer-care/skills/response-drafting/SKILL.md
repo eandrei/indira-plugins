@@ -36,6 +36,7 @@ Expert at drafting professional, warm, and effective customer-facing communicati
    - Plată → `knowledge/policies/payments.md`
    - Garanție → `knowledge/policies/warranty.md`
    - Proces intern → `knowledge/processes/`
+4. **Pentru orice întrebare de livrare/status comandă:** Verifică OBLIGATORIU tracking-ul live pe site-ul curierului (Sameday, Fan Courier, DHL) cu AWB-ul din Shopify **ÎNAINTE** de a redacta draft-ul. Statusul din Shopify (FULFILLED / IN_TRANSIT) NU reflectă stadiul real al coletului. Deschide link-ul de tracking în browser și citește istoricul complet. Fără acest pas, răspunsul va fi vag și generic în loc de concret și util.
 
 ## Response Structure
 

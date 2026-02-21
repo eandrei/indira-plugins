@@ -54,6 +54,7 @@ Nivel încredere: **Ridicat** (verifică dacă informația e actuală)
 ### Tier 2 — Context Operațional
 - **Delight Chat**: Istoric conversații, tickete anterioare
 - **Shopify Admin**: Detalii comandă, status livrare, istoric plăți
+- **Tracking live curier** (OBLIGATORIU pentru întrebări de livrare): Accesează site-ul curierului (Sameday/Fan Courier/DHL) cu AWB-ul. Statusul din Shopify (FULFILLED/IN_TRANSIT) NU reflectă stadiul real — doar tracking-ul live arată poziția exactă, întârzierile (meteo, aglomerare) și estimarea reală de livrare. Link-uri: Sameday `sameday.ro/#awb=[AWB]`, Fan Courier `fancourier.ro/awb-tracking/?awb=[AWB]`, DHL `dhl.com/ro-ro/home/tracking.html?tracking-id=[AWB]`
 
 Nivel încredere: **Mediu-Ridicat** (poate fi incomplet)
 

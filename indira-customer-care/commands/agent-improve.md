@@ -35,7 +35,24 @@ Din conversația curentă și input-ul utilizatorului, identifică:
 - **Care e răspunsul corect?** — informația corectă sau comportamentul dorit
 - **De ce contează?** — e o situație recurentă? Afectează mulți clienți?
 
-### 2. Clasifică Tipul de Învățare
+### 2. Analiză Cauză Rădăcină (Root Cause)
+
+Înainte de a propune o modificare, verifică dacă informația deja există undeva în baza de cunoștințe:
+
+1. **Caută cu grep** termenul cheie în tot workspace-ul (knowledge/, skills/, commands/)
+2. **Dacă informația EXISTĂ deja:**
+   - Întrebarea nu e "ce lipsește?" ci **"de ce agentul nu a urmat instrucțiunea existentă?"**
+   - Cauze tipice:
+     - **Instrucțiune în knowledge/ dar nu în skills/**: Agentul știe informația dar nu e instruit s-o aplice automat
+     - **Instrucțiune în template dar nu în checklist**: Agentul o aplică doar când ajunge la acel template, nu ca pas obligatoriu
+     - **Instrucțiune prea vagă**: "verifică statusul" vs "deschide site-ul curierului în browser și citește istoricul complet"
+     - **Instrucțiune în locul greșit**: E într-o secțiune pe care agentul nu o citește în acel workflow
+   - **Fix-ul corect:** Mută/duplică instrucțiunea în locul unde agentul ia decizia — de obicei checklist-ul "Before Drafting" din skills/ sau pașii din commands/
+3. **Dacă informația NU există:** Continuă cu clasificarea și adaugă-o
+
+**Regula:** Dacă aceeași problemă a apărut de 2+ ori, nu adăuga încă o notă — mută instrucțiunea într-un pas OBLIGATORIU cu cuvântul cheie "OBLIGATORIU" sau "ÎNAINTE de".
+
+### 3. Clasifică Tipul de Învățare
 
 **Knowledge base** (ce știe agentul):
 
@@ -67,7 +84,7 @@ Din conversația curentă și input-ul utilizatorului, identifică:
 | Escalare incompletă | `commands/escalate.md` | Câmpuri lipsă, format brief |
 | KB article flow | `commands/kb-article.md` | Proces creare/update articol |
 
-### 3. Verifică Consistența
+### 4. Verifică Consistența
 
 **IMPORTANT:** După ce identifici fișierul de modificat, verifică dacă informația e consistentă între cele 3 straturi:
 
@@ -77,13 +94,13 @@ Din conversația curentă și input-ul utilizatorului, identifică:
 
 Dacă găsești neconcordanțe (ex: skill-ul menționează o politică veche, sau command-ul referă un fișier KB care nu există), propune **TOATE** modificările necesare, nu doar cea raportată.
 
-### 4. Caută Fișierul Potrivit
+### 5. Caută Fișierul Potrivit
 
 Citește fișierele din directorul relevant și găsește locul exact unde trebuie făcută modificarea.
 
 Dacă niciun fișier existent nu e potrivit, propune crearea unui fișier nou.
 
-### 5. Propune Modificarea
+### 6. Propune Modificarea
 
 Arată CLAR ce se schimbă:
 
@@ -104,7 +121,7 @@ Arată CLAR ce se schimbă:
 [De ce facem această modificare]
 ```
 
-### 6. Cere Confirmare
+### 7. Cere Confirmare
 
 **Întreabă EXPLICIT:**
 - „Această modificare arată corect? Confirm pentru a salva."
@@ -112,7 +129,7 @@ Arată CLAR ce se schimbă:
 - Dacă utilizatorul ajustează → refă propunerea
 - Dacă utilizatorul anulează → nu face nimic
 
-### 7. După Confirmare
+### 8. După Confirmare
 
 - Aplică modificarea în fișier
 - **Dacă s-a modificat un fișier din `skills/` sau `commands/`:** incrementează versiunea patch în `.claude-plugin/plugin.json` (ex: `0.2.1` → `0.2.2`)
