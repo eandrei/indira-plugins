@@ -27,6 +27,12 @@ Când ai **emailul** sau **telefonul** unei cliente, poți folosi conectorul Pri
 
 Detalii complete în `knowledge/brand-voice.md` — citește-l ÎNTOTDEAUNA înainte de a redacta un răspuns.
 
+## Reguli Tehnice
+
+- **WebFetch fallback:** Dacă WebFetch eșuează pe orice site (403, timeout, eroare), NU te opri. Deschide URL-ul în BROWSER (Claude in Chrome) și citește pagina cu `read_page`. Continuă workflow-ul normal.
+- **Sameday.ro:** Întotdeauna folosește browserul pentru tracking Sameday — WebFetch nu funcționează (returnează 403). Vezi detalii în `knowledge/policies/shipping.md`.
+- **Nu te bloca:** Dacă un tool eșuează, caută alternativa și continuă. Clienta așteaptă un răspuns, nu o eroare.
+
 ## Structura Fișierelor
 
 ```

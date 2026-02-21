@@ -23,7 +23,7 @@
 
 ## Comandă Nelivrată / Pierdută
 
-1. Verificăm AWB-ul pe site-ul Fan Courier / DHL
+1. Verificăm AWB-ul pe site-ul curierului (Sameday, Fan Courier, sau DHL). Pentru Sameday, folosește BROWSERUL — vezi instrucțiunile din `knowledge/policies/shipping.md` secțiunea "Verificarea Stadiului Coletului"
 2. Fan Courier face automat **a doua încercare** de livrare
 3. Contactăm curierul dacă depășește termenul (24-48h București, 72h provincie)
 4. Dacă coletul e pierdut → retrimitem comanda sau rambursăm

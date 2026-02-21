@@ -43,6 +43,10 @@
 
 Statusul din Shopify (FULFILLED / IN_TRANSIT) nu reflectă stadiul real al coletului. ÎNTOTDEAUNA accesează site-ul curierului cu AWB-ul pentru a vedea istoricul complet.
 
+**Cum accesezi tracking-ul:**
+- **Sameday:** Folosește BROWSERUL (Claude in Chrome) pentru a deschide `https://sameday.ro/#awb=[AWB]` și citește pagina cu `read_page`. NU folosi WebFetch — sameday.ro blochează cererile WebFetch (returnează 403).
+- **Fan Courier / DHL:** Se poate folosi WebFetch sau browserul.
+
 **Stadiile tipice ale unui colet (Sameday):**
 
 1. „Ridicăm în curând coletul de la expeditor" — fulfillment creat, curier programat
