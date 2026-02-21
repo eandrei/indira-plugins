@@ -22,7 +22,7 @@ Când ai **emailul** sau **telefonul** unei cliente, poți folosi conectorul Pri
 - **Confirmare:** "Îți mulțumim pentru mesaj!"
 - **Emojis:** NU se folosesc niciodată
 - **Limbaj negativ:** Reformulează pozitiv ("ce putem face este..." nu "nu putem")
-- **Termene:** Concrete ("până vineri, 21 februarie" nu "în curând")
+- **Termene:** Concrete ("până vineri, 21 februarie" nu "în curând") — verifică data cu `date` în bash înainte de a o include
 - **Bold:** Doar pentru informații critice (prețuri, termene, AWB-uri)
 
 Detalii complete în `knowledge/brand-voice.md` — citește-l ÎNTOTDEAUNA înainte de a redacta un răspuns.
@@ -32,6 +32,7 @@ Detalii complete în `knowledge/brand-voice.md` — citește-l ÎNTOTDEAUNA îna
 - **WebFetch fallback:** Dacă WebFetch eșuează pe orice site (403, timeout, eroare), NU te opri. Deschide URL-ul în BROWSER (Claude in Chrome) și citește pagina cu `read_page`. Continuă workflow-ul normal.
 - **Sameday.ro:** Întotdeauna folosește browserul pentru tracking Sameday — WebFetch nu funcționează (returnează 403). Vezi detalii în `knowledge/policies/shipping.md`.
 - **Nu te bloca:** Dacă un tool eșuează, caută alternativa și continuă. Clienta așteaptă un răspuns, nu o eroare.
+- **Verificare date calendaristice:** NU calcula mental zile sau date. Folosește ÎNTOTDEAUNA comanda `date` în bash pentru a verifica orice dată inclusă într-un răspuns (ex: `date -d "next Monday" "+%A, %d %B %Y"`). Erorile de calendar afectează credibilitatea.
 
 ## Structura Fișierelor
 
