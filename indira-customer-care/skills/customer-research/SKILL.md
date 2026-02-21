@@ -26,7 +26,8 @@ Expert la cercetarea multi-sursă pentru a răspunde la întrebările cliențilo
 |---------------|-----------------|
 | Produs / material | `knowledge/products/`, catalog Shopify |
 | Politică (retur, livrare) | `knowledge/policies/` |
-| Comandă specifică | ~~platformă suport (Delight Chat), ~~e-commerce (Shopify) |
+| Comandă specifică | ~~platformă suport (Delight Chat), ~~e-commerce (Shopify), **site-ul curierului (tracking AWB)** |
+| Întârziere livrare | Shopify (date comandă), **tracking AWB pe site-ul curierului** (stadiu real), avertizări meteo ANM |
 | Proces intern | `knowledge/processes/` |
 | Recomandare | `knowledge/products/collections.md`, site-ul indira.ro |
 

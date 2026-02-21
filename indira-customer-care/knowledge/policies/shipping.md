@@ -39,6 +39,44 @@
 - Contactează-ne la **support@indira.ro** sau **0726 963 030**
 - Indira nu răspunde pentru întârzieri cauzate de factori externi (meteo, greve, calamități)
 
+### Verificarea Stadiului Coletului (Tracking)
+
+Statusul din Shopify (FULFILLED / IN_TRANSIT) nu reflectă stadiul real al coletului. ÎNTOTDEAUNA accesează site-ul curierului cu AWB-ul pentru a vedea istoricul complet.
+
+**Stadiile tipice ale unui colet (Sameday):**
+
+1. „Ridicăm în curând coletul de la expeditor" — fulfillment creat, curier programat
+2. „Un curier urmează să ridice coletul de la expeditor" — curier în drum spre expeditor
+3. „Expeditorul a predat coletul către Sameday" — coletul e în posesia curierului
+4. „Coletul se află în depozitul central și urmează să fie procesat" — sortare în hub
+5. „Coletul este în drum spre depozitul local" — în tranzit către orașul destinatar
+6. „Coletul a ajuns în agenția locală și urmează să fie procesat" — în depozitul local, livrare iminentă
+7. „Coletul a fost livrat" — finalizat
+
+**Ce să urmărești:**
+- **Decalajul între fulfillment și ridicare reală** — Shopify marchează „fulfilled" când se creează AWB-ul, dar coletul poate fi ridicat abia a doua zi
+- **Timpul petrecut într-un singur stadiu** — dacă e >2 zile lucrătoare în același stadiu, investighează
+- **Județul destinatar** — apare în tracking când coletul ajunge local, confirmă zona clientei
+- **Diferența între weekend și zile lucrătoare** — coletele nu se livrează sâmbătă/duminică
+
+**Link-uri tracking:**
+- Sameday: `https://sameday.ro/#awb=[AWB]`
+- Fan Courier: `https://www.fancourier.ro/awb-tracking/?awb=[AWB]`
+- DHL: `https://www.dhl.com/ro-ro/home/tracking.html?tracking-id=[AWB]`
+
+### Întârzieri Cauzate de Condiții Meteo
+
+Iarna (noiembrie–martie), ninsorile și viscolul pot cauza întârzieri semnificative la toți curierii. Când o clientă reclamă întârziere în această perioadă:
+
+1. **Verifică AWB-ul pe site-ul curierului** — nu te baza doar pe statusul din Shopify
+2. **Verifică condițiile meteo** — caută avertizări ANM active și verifică dacă curierul a postat notificări despre întârzieri pe site-ul propriu (ex: banner pe sameday.ro)
+3. **Dacă meteo e cauza probabilă:**
+   - Menționează transparent condițiile meteo în răspuns (nu doar „factori externi")
+   - Estimează un termen realist pe baza poziției reale a coletului (+1-3 zile lucrătoare)
+   - Oferă-te să urmărești coletul proactiv și să revii cu un update
+4. **Dacă coletul e blocat >3 zile lucrătoare** în același status → contactează curierul direct
+5. **Ton:** Empatic, transparent. Clienta apreciază explicația concretă, nu formulări vagi
+
 ## Contact Livrare
 
 - Email: support@indira.ro

@@ -206,19 +206,28 @@ Elena
 
 ### Întârziere Livrare
 
+**Înainte de a scrie:** Verifică ÎNTOTDEAUNA tracking-ul real pe site-ul curierului (nu doar statusul din Shopify). Locația actuală a coletului schimbă tonul răspunsului. Consultă `knowledge/policies/shipping.md` → secțiunea „Verificarea Stadiului Coletului" pentru stadiile tipice și link-urile de tracking.
+
 ```
 Bună [Nume],
 
-Îmi pare rău pentru întârzierea în livrarea comenzii tale #[număr].
-[Motivul dacă e cunoscut — ex: volum mare de comenzi, probleme curier]
+Îți mulțumim pentru mesaj!
 
-Am verificat și coletul tău [status actual]. Estimăm livrarea
-până în [dată concretă].
+Am verificat comanda ta #[număr] — coletul [se află în / a ajuns la] [locație concretă din tracking].
+AWB-ul tău este **[AWB]** și poți urmări statusul aici: [link tracking]
 
-Revenim cu un update dacă apare orice schimbare.
+[Dacă meteo: Din păcate, condițiile meteo din ultimele zile ([detaliu concret]) au cauzat întârzieri la nivel național. [Curier] confirmă și pe site-ul lor că livrările sunt afectate.]
+[Dacă alt motiv: Motivul concret al întârzierii]
+
+[Dacă coletul e aproape de destinație: Cel mai probabil vei fi contactată de curier **[dată concretă]** pentru livrare.]
+[Dacă coletul e încă departe: Estimăm livrarea până în **[dată concretă]**. Te vom ține la curent dacă apare orice schimbare.]
+
+[Dacă coletul e local: Te rugăm să ai telefonul la îndemână pentru că te va suna curierul.]
 
 Elena
 ```
+
+**Notă:** Când coletul e deja în depozitul local, formulează ca veste bună („am vești bune — coletul a ajuns deja în zona ta"). Asta schimbă percepția de la „nu știu unde e comanda" la „e aproape".
 
 ### Produs Indisponibil (Stoc Epuizat)
 
