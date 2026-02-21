@@ -23,7 +23,12 @@ Expert at drafting professional, warm, and effective customer-facing communicati
 ## Before Drafting
 
 1. Read `knowledge/brand-voice.md` for tone and style guidelines — ALWAYS
-2. Identify the topic and read the relevant knowledge file:
+2. **Dacă mesajul implică o comandă existentă** — verifică ÎNTOTDEAUNA statusul comenzii ÎNAINTE de a scrie orice draft:
+   - Comanda a fost achitată? (plata poate fi în așteptare, eșuată, sau completă)
+   - Comanda a fost expediată? (poate fi în pregătire, expediată, sau livrată)
+   - Adaptează răspunsul în funcție de status (ex: nu menționa rambursare dacă nu s-a plătit, nu menționa retur dacă nu s-a expediat)
+   - Cere utilizatorului să confirme statusul dacă nu ai acces direct la date
+3. Identify the topic and read the relevant knowledge file:
    - Comandă/livrare → `knowledge/policies/shipping.md`
    - Retur/schimb → `knowledge/policies/returns-exchanges.md`
    - Întrebare produs → `knowledge/products/collections.md` + `knowledge/products/materials-care.md`
