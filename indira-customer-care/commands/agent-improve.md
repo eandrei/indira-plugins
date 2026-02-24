@@ -23,7 +23,19 @@ Exemple:
 
 ## Workflow
 
-### 0. Citește Convențiile
+### 0. Sincronizează Ultima Versiune
+
+**OBLIGATORIU — ÎNAINTE de orice altceva:**
+
+Execută `git pull` în directorul rădăcină al proiectului pentru a te asigura că lucrezi cu ultima versiune a bazei de cunoștințe. Altfel riști să suprascrii modificări făcute între timp.
+
+```bash
+cd <directorul proiectului> && git pull
+```
+
+Dacă pull-ul eșuează (nu e repo git, conflict, etc.), anunță utilizatorul și cere instrucțiuni înainte de a continua.
+
+### 0b. Citește Convențiile
 
 Citește `CLAUDE.md` înainte de orice modificare — conține regulile de comunicare, structura fișierelor și cele 3 straturi (knowledge, skills, commands) care trebuie să rămână consistente.
 
