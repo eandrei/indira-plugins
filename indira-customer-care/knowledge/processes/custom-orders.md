@@ -3,6 +3,7 @@
 ## Important
 
 - Indira **NU face produse personalizate**
+- Indira **NU vinde cercei individuali** — cerceii se comercializează doar ca pereche
 - Există doar serviciu de **precomenzi** pentru produse existente care nu sunt în stoc
 
 ## Condiții Precomandă

@@ -2,8 +2,15 @@
 
 ## Ambalare Standard
 
-- Fiecare bijuterie vine în **cutie de depozitare Indira** + cutie de livrare
+- Fiecare bijuterie vine ambalată individual
+- **Brățări snur:** puse pe un cartonaș care se introduce într-un plic — ambele din hârtie specială cu print gold foil
 - Ambalajul standard este elegant și potrivit pentru cadouri
+
+## Ambalaj Premium
+
+- Include: **felicitare + pungă cadou + certificat de garanție** pentru fiecare bijuterie din comandă
+- Comenzi cu valoare **până în 600 lei** → ambalajul premium se achiziționează separat
+- Comenzi cu valoare **peste 600 lei** → ambalajul premium se adaugă gratuit
 
 ## Bijuterie Primită Cadou — Schimb
 
