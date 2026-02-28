@@ -1,3 +1,17 @@
+# Personal context (nu se partajează)
+
+
+# OS
 .DS_Store
+
+# Build artifacts
 *.plugin
 /tmp/
+
+# Working files
+workspace/drafts/*
+workspace/tickets/*
+workspace/research/*
+!workspace/drafts/.gitkeep
+!workspace/tickets/.gitkeep
+!workspace/research/.gitkeep

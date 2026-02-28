@@ -1,85 +1,55 @@
 # Indira Plugins
 
-Agent de customer care pentru [indira.ro](https://www.indira.ro) — răspunde la mesaje, triază tickete, cercetează și își îmbunătățește singur baza de cunoștințe.
+Plugin-uri și workspace CEO pentru [indira.ro](https://www.indira.ro) — bijuterii demi-fine din argint și aur.
 
-## Instalare (~5 min)
+## Setup cu Claude Cowork
 
-### Pas 1 — Instalează Git (o singură dată)
+1. **Work in a folder** → selectează `indira-plugins/` pentru CEO workspace
+2. Sau selectează un plugin specific (ex: `indira-customer-care/`) pentru lucru focusat
 
-Deschide **Terminal** (Cmd+Space → scrie "Terminal" → Enter) și rulează:
+## Plugin-uri disponibile
 
-```
-git --version
-```
+| Plugin | Descriere |
+|--------|-----------|
+| `indira-customer-care/` | Customer care agent — răspunsuri, triaj, cercetare, KB |
+| `interview-analysis/` | Analiza interviuri JTBD |
 
-Dacă apare o versiune (ex: `git version 2.x.x`), treci la pasul 2.
-
-Dacă nu, macOS te va întreba dacă vrei să instalezi developer tools. Apasă **Install** și așteaptă (~2 min).
-
-### Pas 2 — Descarcă repo-ul
-
-În același Terminal, copiază și lipește:
-
-```
-cd ~/Documents
-git clone https://github.com/eandrei/indira-plugins.git
-```
-
-### Pas 3 — Adaugă plugin-ul în Cowork
-
-1. Deschide **Claude Cowork**
-2. **Plugins** → **Add marketplace from GitHub**
-3. Introdu: `eandrei/indira-plugins`
-4. Click **Sync**
-5. Instalează **indira-customer-care**
-
-### Pas 4 — Conectează workspace-ul
-
-1. În Cowork, click **Work in a folder**
-2. Navighează la **Documents** → **indira-plugins** → **indira-customer-care**
-3. Selectează directorul `indira-customer-care`
-
-Gata. Agentul are acum acces la cunoștințe, comenzi și skills — totul într-un singur loc.
-
----
-
-## Comenzi disponibile
-
-| Comandă | Ce face |
-|---------|---------|
-| `/draft-response` | Scrie un răspuns profesional pentru un mesaj de la client |
-| `/triage` | Categorizează și prioritizează un ticket |
-| `/research` | Cercetare multi-sursă pe o întrebare |
-| `/escalate` | Creează un brief de escalare structurat |
-| `/kb-article` | Creează sau actualizează un articol în baza de cunoștințe |
-| `/agent-improve` | Îmbunătățește agentul pe baza feedback-ului |
-
----
-
-## Cum se actualizează
-
-| Ce se schimbă | Cum se actualizează | Când e disponibil |
-|---------------|--------------------|--------------------|
-| **Knowledge base** (politici, produse, procese) | Editezi fișierele din `knowledge/` | Instant |
-| **Commands & Skills** (logica agentului) | `git commit && git push` | Automat, la push |
-| **Self-improvement** (agentul se corectează singur) | `/agent-improve` → confirmă → `git push` | Instant local, permanent la push |
-
----
-
-## Structura repo-ului
+## Structura
 
 ```
 indira-plugins/
-├── indira-customer-care/     ← Cowork "Work in a folder" pointează aici
-│   ├── CLAUDE.md             ← convenții agent
-│   ├── knowledge/            ← baza de cunoștințe (brand, produse, politici, procese)
-│   ├── commands/             ← workflow-uri (/draft-response, /triage, etc.)
-│   ├── skills/               ← instrucțiuni de comportament
-│   ├── drafts/               ← draft-uri în lucru
-│   ├── tickets/              ← note per ticket
-│   ├── research/             ← cercetări
-│   └── .claude-plugin/       ← metadata plugin
+├── CLAUDE.md                  ← agent CEO: routing + context
+├── about-me.md                ← personal (gitignored)
+├── working-style.md           ← personal (gitignored)
+├── brand-voice.md             ← vocea brandului (shared)
+│
+├── indira-customer-care/      ← plugin: customer care
+│   ├── .claude-plugin/
+│   ├── CLAUDE.md
+│   ├── knowledge/
+│   ├── commands/
+│   ├── skills/
+│   └── ...
+│
+├── interview-analysis/        ← plugin: analiza interviuri
+│   ├── .claude-plugin/
+│   ├── commands/
+│   └── skills/
+│
+├── workspace/                 ← fișiere de lucru CEO
+│   ├── drafts/
+│   ├── research/
+│   └── tickets/
+│
 └── docs/
+    ├── brainstorms/
+    └── plans/
 ```
 
-Totul e într-un singur director — agentul are acces la cunoștințe, comenzi și skills.
+## Cum se actualizează
+
+| Ce se schimbă | Cum | Când e disponibil |
+|---------------|-----|-------------------|
+| Knowledge base | Editezi fișierele din `knowledge/` | Instant |
+| Commands & Skills | `git commit && git push` | La push |
+| Self-improvement | `/agent-improve` → confirmă → push | Instant local |

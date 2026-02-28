@@ -40,7 +40,7 @@ Indira este un brand românesc de bijuterii demi-fine, specializat în piese uni
 ### Ce evităm
 - Ton rece sau robotic
 - Răspunsuri lungi și complicate
-- Promisiuni vagi ("cât mai curând posibil") — dăm termene concrete
+- Promisiuni vagi ("cât mai curând posibil") — dăm termene concrete; verificăm ÎNTOTDEAUNA datele calendaristice programatic (comanda `date` în bash) — nu calculăm mental
 - Limbaj negativ ("nu putem", "nu se poate") — reformulăm pozitiv ("ce putem face este...")
 - Text bold excesiv — folosim bold doar pentru informații critice
 - Emojis — nu folosim deloc emojis în comunicarea cu clientele
