@@ -134,6 +134,8 @@ Elena
 
 ### Ajutor Alegere Mărime
 
+**Varianta A — Clienta NU știe mărimea (nu menționează mm sau număr):**
+
 ```
 Bună [Nume],
 
@@ -146,6 +148,27 @@ Pentru a alege mărimea potrivită, poți:
 Ghidul nostru complet de mărimi e aici: [link]
 
 Sfat: dacă ești între două mărimi, alege-o pe cea mai mare — e mai confortabil.
+
+Elena
+```
+
+**Varianta B — Clienta ȘTIE mărimea (menționează mm, circumferință sau diametru concret):**
+
+Clienta s-a măsurat deja — nu repeta instrucțiunile de măsurare.
+Mapează direct la cea mai apropiată mărime disponibilă și recomand-o.
+Dacă e între mărimi, recomandă mărimea mai mare.
+
+```
+Bună [Nume],
+
+Îți mulțumim pentru mesaj!
+
+[Produsul] este disponibil în mărimile [X, Y, Z]. Cea mai potrivită variantă
+pentru tine este **mărimea [N]** ([circumferință]mm circumferință).
+
+Poți comanda direct de pe site: [link produs]
+
+Dacă ai alte întrebări, scrie-ne cu încredere.
 
 Elena
 ```
