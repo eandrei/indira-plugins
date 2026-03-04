@@ -228,6 +228,48 @@ evalua situația. Poți răspunde direct la acest mesaj cu pozele.
 Elena
 ```
 
+### Piatră Căzută / Cerere Garanție
+
+**Context important:** Căderea pietrelor e listată la „Ce NU Acoperă Garanția", DAR „piatră căzută din cauza manoperei" E acoperită. Nu pre-judeca — doar evaluarea fizică poate stabili cauza. Direcționează ÎNTOTDEAUNA către „Nesigur, Necesită Evaluare", NU către „Reparație Contra Cost".
+
+**Tonul:** Nu închide ușa garanției, dar nici nu promite reparație gratuită. Prezintă ambele scenarii (gratuit dacă e manoperă, contra cost dacă nu).
+
+```
+Bună [Nume],
+
+Îți mulțumim pentru mesaj și ne pare rău să auzim că piatra s-a desprins
+de pe brățară/inel. Înțelegem cât de neplăcut este[, mai ales că a fost un cadou].
+
+Comanda ta din [lună/an] se încadrează în perioada de garanție de 2 ani.
+Dorim să fim transparente cu tine: căderea pietrelor nu este acoperită
+automat de garanție, însă dacă în urma evaluării se constată un defect
+de manoperă, reparația va fi gratuită.
+
+Dacă evaluarea arată că nu este vorba de un defect de fabricație, îți vom
+oferi opțiunea de reparație contra cost — primești o cotație înainte,
+iar reparația se face doar cu acordul tău. Costul de transport dus-întors
+este de 30 RON.
+
+Pentru a demara procesul, te rugăm să accesezi Contul meu pe indira.ro,
+secțiunea Portal Reparații și Garanție, și să alegi opțiunea
+„Nesigur, Necesită Evaluare". Selectezi comanda #[număr], descrii pe
+scurt ce s-a întâmplat și încarci câteva fotografii clare ale bijuteriei
+și ale locului de unde s-a desprins piatra.
+
+După ce primim bijuteria, o evaluăm în 24-48 ore lucrătoare și revenim
+cu rezultatul și pașii următori.
+
+Dacă ai întrebări despre completarea formularului sau despre trimiterea
+coletului, scrie-ne cu încredere.
+
+Elena
+```
+
+**Greșeli de evitat:**
+- NU recomanda „Reparație Contra Cost" direct — lasă evaluarea să decidă
+- NU spune „nu e acoperit de garanție" ferm — spune „nu e acoperit automat"
+- NU omite scenariul pozitiv (defect manoperă = gratuit)
+
 ### Întârziere Livrare
 
 **Înainte de a scrie:** Verifică ÎNTOTDEAUNA tracking-ul real pe site-ul curierului (nu doar statusul din Shopify). Locația actuală a coletului schimbă tonul răspunsului. Consultă `knowledge/policies/shipping.md` → secțiunea „Verificarea Stadiului Coletului" pentru stadiile tipice și link-urile de tracking.

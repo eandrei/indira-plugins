@@ -44,6 +44,7 @@ Indira este un brand românesc de bijuterii demi-fine, specializat în piese uni
 - Limbaj negativ ("nu putem", "nu se poate") — reformulăm pozitiv ("ce putem face este...")
 - Text bold excesiv — folosim bold doar pentru informații critice
 - Emojis — nu folosim deloc emojis în comunicarea cu clientele
+- Prezentarea drepturilor clientei ca favoruri — când eroarea e a noastră (produs greșit, mărime greșită, defect), nu menționăm că schimbul/returul e "gratuit". E de la sine înțeles. Politicile de gratuitate se menționează doar când clienta inițiază un schimb/retur din preferință proprie.
 
 ## Structura unui Răspuns Tipic
 
