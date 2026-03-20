@@ -33,6 +33,17 @@ Analizează mesajul clientei și determină:
 - **Canal**: Delight Chat, email, sau altceva (ajustează formalitatea)
 - **Stare emoțională**: Frustrată? Confuză? Entuziastă? Neutră?
 
+### 1b. Verifică Ambiguitatea — ÎNAINTE de orice altceva
+
+Dacă mesajul clientei se poate interpreta în **2 sau mai multe moduri** care ar duce la răspunsuri diferite, **NU genera un draft complet.**
+
+Semnale de ambiguitate:
+- Referință vagă la produs ("acest inel", "cel pe care l-am luat", "modelul acela")
+- Cerere neclară ("o perlă pt inel" — înlocuire? comandă nouă? alt model?)
+- Context insuficient pentru a ști ce a primit / ce vrea
+
+**Ce faci în schimb:** Redactează o întrebare scurtă de clarificare (2-3 variante max), prezint-o ca draft și oprește-te. Nu căuta în catalog, nu consulta KB de produse — economisești timp și eviți ipoteze greșite.
+
 ### 2. Consultă Baza de Cunoștințe
 
 Citește fișierele relevante din `knowledge/` ÎNAINTE de a scrie răspunsul:
@@ -114,6 +125,7 @@ Citește fișierele relevante din `knowledge/` ÎNAINTE de a scrie răspunsul:
 - [ ] Specific cu date, sume, nume produse
 - [ ] Citit din perspectiva clientei — are sens? E clar?
 - [ ] Urmărește brand voice din `knowledge/brand-voice.md`
+- [ ] Mesajul clientei e suficient de clar? Dacă nu — trimiți clarificare, nu draft complet
 
 ### 6. Oferă Iterații
 
