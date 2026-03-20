@@ -27,10 +27,10 @@ Exemple:
 
 **OBLIGATORIU — ÎNAINTE de orice altceva:**
 
-Execută `git pull` în directorul rădăcină al proiectului pentru a te asigura că lucrezi cu ultima versiune a bazei de cunoștințe. Altfel riști să suprascrii modificări făcute între timp.
+Execută `git pull` în directorul **părinte** al plugin-ului (un nivel mai sus față de directorul `indira-customer-care/`) — acolo se află repo-ul git. Altfel riști să suprascrii modificări făcute între timp.
 
 ```bash
-cd <directorul proiectului> && git pull
+cd <directorul plugin-ului>/.. && git pull
 ```
 
 Dacă pull-ul eșuează (nu e repo git, conflict, etc.), anunță utilizatorul și cere instrucțiuni înainte de a continua.
@@ -143,9 +143,12 @@ Arată CLAR ce se schimbă:
 
 ### 8. După Confirmare
 
-- Aplică modificarea în fișier
-- **Dacă s-a modificat un fișier din `skills/` sau `commands/`:** incrementează versiunea patch în `.claude-plugin/plugin.json` (ex: `0.2.1` → `0.2.2`)
-- Execută comanda `./commit` din directorul rădăcină al proiectului
+1. Aplică modificarea în fișier
+2. **OBLIGATORIU ÎNAINTE de commit:** incrementează versiunea patch în `.claude-plugin/plugin.json` (ex: `0.2.1` → `0.2.2`), indiferent de tipul fișierului modificat (knowledge, skills sau commands)
+3. **Abia apoi** execută comanda `./commit` din directorul **părinte** al plugin-ului (un nivel mai sus — acolo e repo-ul git):
+   ```bash
+   cd <directorul plugin-ului>/.. && ./commit
+   ```
 - Afișează un rezumat:
 
 ```
