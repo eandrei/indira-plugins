@@ -41,6 +41,14 @@ Aur veritabil — 14K (58.3% aur) și 18K (75% aur).
 
 ## Pietre Naturale
 
+### Autenticitate și Certificare
+
+Toate pietrele folosite în bijuteriile Indira sunt **naturale**. Certificarea se face la nivel de lot, de la furnizor — nu emitem certificate individuale per piatră, deoarece costul unei astfel de certificări este de **20–40 EUR per piatră**, ceea ce ar crește semnificativ prețul de achiziție al bijuteriei. Prețurile accesibile sunt posibile tocmai prin această alegere, fără compromisuri pe calitatea sau naturalețea pietrelor.
+
+### Greutate
+
+Fiecare produs este **cântărit individual** înainte de livrare. Greutatea exactă se regăsește pe coletul primit. Dacă o clientă solicită greutatea înainte de achiziție, aceasta poate fi verificată intern și comunicată la cerere.
+
 ### Pietre rezistente (purtare zilnică)
 - Safir, Rubin, Topaz, Zirconiu, Diamant
 

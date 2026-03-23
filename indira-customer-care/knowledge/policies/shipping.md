@@ -5,6 +5,7 @@
 - **Curier:** Fan Courier, Sameday
 - **Cost:** Gratuit pentru comenzi peste **200 RON**. Sub 200 RON → **15 RON**
 - **Timp livrare:** 24-48h (atât în București cât și în provincie)
+- **Comunicare termen către client:** Folosește ÎNTOTDEAUNA limita superioară (48h), nu cea inferioară. Exemplu: pentru o comandă expediată luni, spune clientei „marți" — nu „luni". Supraestimarea e mai sigură decât să dai o speranță care poate dezamăgi.
 - **Program livrare:** Luni–Vineri, 09:00–18:00 (nu se livrează în weekend/sărbători legale)
 - **Comenzi plasate până la ora 14:00** în zile lucrătoare → expediate în aceeași zi
 - **Comenzi plasate după ora 14:00** → expediate în următoarea zi lucrătoare

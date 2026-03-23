@@ -7,7 +7,7 @@
 
 ## Reguli
 
-- Vizitele se fac **doar cu programare online**, cu excepția ridicării/returului unei comenzi plasate online
+- Vizitele se fac **doar cu programare online**, cu excepția ridicării comenzii plasate online
 - Plata se poate face **doar cu cardul** (nu se acceptă cash)
 
 ## Servicii Disponibile

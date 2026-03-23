@@ -25,6 +25,10 @@ Exemple:
 
 ### 1. Înțelege Contextul
 
+**OBLIGATORIU — ÎNAINTE de orice:** Separă mesajul clientei de notele de operator.
+
+Argumentele comenzii pot conține atât mesajul clientei cât și note adăugate de operator la final (ex: „avem easybox ul corect", „comanda e deja expediată", „clienta e VIP"). Notele de operator sunt **fapte confirmate** — tratează-le ca atare și reflectă-le direct în răspuns, fără a pune la îndoială sau a promite că „vom verifica".
+
 Analizează mesajul clientei și determină:
 
 - **Clientă**: Cine e? Clientă nouă sau fidelă?
@@ -32,6 +36,18 @@ Analizează mesajul clientei și determină:
 - **Urgență**: E time-sensitive? De cât timp așteaptă?
 - **Canal**: Delight Chat, email, sau altceva (ajustează formalitatea)
 - **Stare emoțională**: Frustrată? Confuză? Entuziastă? Neutră?
+- **Note operator**: Există context confirmat adăugat de operator? Dacă da, integrează-l direct în răspuns.
+
+### 1b. Verifică Ambiguitatea — ÎNAINTE de orice altceva
+
+Dacă mesajul clientei se poate interpreta în **2 sau mai multe moduri** care ar duce la răspunsuri diferite, **NU genera un draft complet.**
+
+Semnale de ambiguitate:
+- Referință vagă la produs ("acest inel", "cel pe care l-am luat", "modelul acela")
+- Cerere neclară ("o perlă pt inel" — înlocuire? comandă nouă? alt model?)
+- Context insuficient pentru a ști ce a primit / ce vrea
+
+**Ce faci în schimb:** Redactează o întrebare scurtă de clarificare (2-3 variante max), prezint-o ca draft și oprește-te. Nu căuta în catalog, nu consulta KB de produse — economisești timp și eviți ipoteze greșite.
 
 ### 2. Consultă Baza de Cunoștințe
 
@@ -114,6 +130,7 @@ Citește fișierele relevante din `knowledge/` ÎNAINTE de a scrie răspunsul:
 - [ ] Specific cu date, sume, nume produse
 - [ ] Citit din perspectiva clientei — are sens? E clar?
 - [ ] Urmărește brand voice din `knowledge/brand-voice.md`
+- [ ] Mesajul clientei e suficient de clar? Dacă nu — trimiți clarificare, nu draft complet
 
 ### 6. Oferă Iterații
 
