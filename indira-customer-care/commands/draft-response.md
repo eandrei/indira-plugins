@@ -25,6 +25,10 @@ Exemple:
 
 ### 1. Înțelege Contextul
 
+**OBLIGATORIU — ÎNAINTE de orice:** Separă mesajul clientei de notele de operator.
+
+Argumentele comenzii pot conține atât mesajul clientei cât și note adăugate de operator la final (ex: „avem easybox ul corect", „comanda e deja expediată", „clienta e VIP"). Notele de operator sunt **fapte confirmate** — tratează-le ca atare și reflectă-le direct în răspuns, fără a pune la îndoială sau a promite că „vom verifica".
+
 Analizează mesajul clientei și determină:
 
 - **Clientă**: Cine e? Clientă nouă sau fidelă?
@@ -32,6 +36,7 @@ Analizează mesajul clientei și determină:
 - **Urgență**: E time-sensitive? De cât timp așteaptă?
 - **Canal**: Delight Chat, email, sau altceva (ajustează formalitatea)
 - **Stare emoțională**: Frustrată? Confuză? Entuziastă? Neutră?
+- **Note operator**: Există context confirmat adăugat de operator? Dacă da, integrează-l direct în răspuns.
 
 ### 1b. Verifică Ambiguitatea — ÎNAINTE de orice altceva
 

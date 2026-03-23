@@ -295,18 +295,25 @@ Elena
 
 **Notă:** Când coletul e deja în depozitul local, formulează ca veste bună („am vești bune — coletul a ajuns deja în zona ta"). Asta schimbă percepția de la „nu știu unde e comanda" la „e aproape".
 
-### Produs Indisponibil (Stoc Epuizat)
+### Produs Indisponibil (Stoc Epuizat sau Variantă Inexistentă)
+
+**Stoc epuizat** = produsul există, dar nu e disponibil temporar în mărimea/culoarea dorită.
+**Variantă inexistentă** = produsul nu este produs în varianta dorită (ex: culoare/material indisponibil în colecție).
 
 ```
 Bună [Nume],
 
-Din păcate, [produsul] nu mai este disponibil momentan în mărimea [X].
+Îți mulțumim pentru mesaj!
 
-Ce putem face:
-- Te putem notifica imediat ce revine în stoc
-- Îți putem sugera alternative similare: [sugestii]
+[Varianta stoc epuizat:] Din păcate, [produsul] nu mai este disponibil momentan în [mărimea/varianta X].
+[Varianta inexistentă:] [Produsul] este disponibil momentan doar în [varianta existentă] — nu avem o variantă în [varianta dorită] în colecție la această dată.
 
-Spune-mi ce preferi și ne ocupăm.
+Ce putem face este:
+- [Dacă stoc epuizat:] Te notificăm imediat ce revine în stoc — lasă-ne adresa de email.
+- Îți sugerăm alternative similare dacă dorești: [sugestii].
+- Te invităm să te abonezi la newsletterul nostru de pe indira.ro — așa ești prima care află când adăugăm produse noi sau extindem colecțiile existente.
+
+Spune-mi ce preferi și mă ocup.
 
 Elena
 ```
@@ -322,6 +329,7 @@ Before presenting the draft, verify:
 - [ ] Nicio promisiune dincolo de ce e în baza de cunoștințe
 - [ ] Tonul potrivit situației (empatic pentru probleme, entuziast pentru vești bune)
 - [ ] Specific cu date, sume, nume produse
+- [ ] Produse auxiliare sugerate ca soluție (kit curățare, ambalaj, etc.) → include LINK, NU preț
 - [ ] Citit din perspectiva clientei — are sens? E clar?
 
 ## Using this Skill
